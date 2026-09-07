@@ -214,6 +214,7 @@ p:last-child { margin-bottom: 0; }
   transition: background-color .25s var(--ease), transform .25s var(--ease),
               box-shadow .25s var(--ease), border-color .25s var(--ease);
   white-space: nowrap;
+  text-align: -webkit-center;
 }
 .btn:hover { --btn-bg: var(--accent-hover); transform: translateY(-1px); }
 .btn:active { transform: translateY(0) scale(.985); }
